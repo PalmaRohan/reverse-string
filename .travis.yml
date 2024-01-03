@@ -1,7 +1,7 @@
-dist: bionic
+dist:*bionic
 
 stages:
-  - build
+* - build
 
 matrix:
   include:
@@ -16,3 +16,4 @@ matrix:
 
 script:
   - bash ./format.sh
+ 
